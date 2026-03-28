@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Accordion card toggle
 function toggleDetails(id, btn) {
   const panel = document.getElementById(id);
@@ -24,3 +25,14 @@ document.querySelectorAll('.program-card, .catalogue-row, .step').forEach(el => 
   el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
   observer.observe(el);
 });
+=======
+document.querySelectorAll(".flip-card").forEach(card => {
+
+card.addEventListener("click", function(){
+
+this.querySelector(".flip-inner").classList.toggle("flip");
+
+});
+
+});
+>>>>>>> 74b5c8795f8dba2433b4a5460c27755f8c6b964f
